@@ -1,7 +1,14 @@
 # Visualization
 import numpy as np
 import matplotlib.pyplot as plt
-#prepare own dataset
-heights=[10,28,12,39,12,23]
-names=['A','B','C','D','E','F']
+
+heights=[10,15,20,25,30]
+names=['Derry','Evans','Deborah','Yeng','Rashid']
+
+y_lable=np.arange(len(names))
+
+plt.bar(y_lable,heights)
+plt.xticks(y_lable,names)
+plt.show()
+
 
